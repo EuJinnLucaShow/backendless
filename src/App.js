@@ -40,7 +40,7 @@ function App() {
             />
           }
         />
-        <Route index element={<Navigate to={`/${tabs[0].id}`} />} />
+        <Route index element={<Navigate to={`backendless/${tabs[0].id}`} />} />
       </Routes>
     </>
   );

@@ -35,11 +35,7 @@ function App() {
         })}
         <Route
           path="*"
-          element={
-            <Tab
-              title="Not Found"
-              data={<LazyLoader path="components/NotFound.jsx" />}
-            />
+          element={<Navigate to={`/${firstTabId}`} />
           }
         />
         <Route index element={<Navigate to={`/${firstTabId}`} />} />

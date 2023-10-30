@@ -6,8 +6,8 @@ export const LazyLoader = ({ path }) => {
  
     return (
           <Suspense fallback={<div>Loading...</div>}> 
-            <Component />
-            </Suspense>)
+          <Component />
+          </Suspense>)
 }
 
 

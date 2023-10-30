@@ -6,6 +6,8 @@ import { Tab } from "./components/Tab";
 
 function App() { 
 
+  const firstTabId = tabs[0].id;
+
   return (
     <>
       <nav style={{display: 'flex', alignItems: 'center', justifyContent: 'space-evenly', marginTop: 20 }}>
@@ -40,7 +42,7 @@ function App() {
             />
           }
         />
-        <Route index element={<Navigate to={`backendless/${tabs[0].id}`} />} />
+        <Route index element={<Navigate to={`/${firstTabId[0].id}`} />} />
       </Routes>
     </>
   );

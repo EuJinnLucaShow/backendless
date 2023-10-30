@@ -42,7 +42,7 @@ function App() {
             />
           }
         />
-        <Route index element={<Navigate to={`/${firstTabId[0].id}`} />} />
+        <Route index element={<Navigate to={`/${firstTabId}`} />} />
       </Routes>
     </>
   );

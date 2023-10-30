@@ -36,7 +36,7 @@ function App() {
           element={
             <Tab
               title="Not Found"
-              data={<LazyLoader path="./components/NotFound.jsx" />}
+              data={<LazyLoader path="components/NotFound.jsx" />}
             />
           }
         />

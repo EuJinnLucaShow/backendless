@@ -11,18 +11,22 @@ The description of a tab in the JSON file consists of the following:
 
 See the example below:
 tabs.json   
- `[
+```
+[
   {id: 'dummyTable', title: 'Dummy Table', order: 1, path: 'tabs/dummyTable.js'},
   {id: 'dummyChart', title: 'Dummy Chart', order: 2, path: 'tabs/dummyChart.js'},
   {id: 'dummyList', title: 'Dummy List', order: 0, path: 'tabs/dummyList.js'}
-]`
+]
+```
 
 
 dummyTable.js
-`<import React from ‘react’
+```
+<import React from ‘react’
 const DummyTable = () => (
   <table><tr><td>Dummy</td><td>Table</td></tr></table>)
-export default DummyTable`
+export default DummyTable
+```
 
 
 

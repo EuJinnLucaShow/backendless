@@ -4,9 +4,7 @@ import { LazyLoader } from "./components/LazyLoader";
 import { Tab } from "./components/Tab";
 
 
-function App() { 
-
-  const firstTabId = tabs[0].id;
+function App() {   
 
   return (
     <>
@@ -42,7 +40,7 @@ function App() {
               />
           }
         />
-        <Route index element={<Navigate to={`/${firstTabId}`} />} />
+        <Route index element={<Navigate to={`/${tabs[0].id}`} />} />
       </Routes>
     </>
   );
